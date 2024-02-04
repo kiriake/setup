@@ -1,5 +1,3 @@
-ITERM2-COLOR-SCHEMES-PATH="/Users/kiriake/git/github.com/mbadolato/iTerm2-Color-Schemes/README.md"
-
 .PHONY: help
 help:
 	@echo "Usage:\n  make [initial] [os] [apps] [github] [vim] [dein] [rust] [all]"
