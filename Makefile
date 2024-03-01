@@ -53,6 +53,7 @@ github:
 	@ghq get https://github.com/mbadolato/iTerm2-Color-Schemes.git
 	@ghq get https://github.com/kiriake/dotfiles.git
 	@sudo ln -sf ~/git/github.com/kiriake/dotfiles/zshrc ~/.zshrc
+	@sudo ln -sf ~/git/github.com/kiriake/dotfiles/zshrc.mine ~/.zshrc.mine
 	@sudo ln -sf ~/git/github.com/kiriake/dotfiles/vimrc ~/.vimrc
 	@sudo ln -sf ~/git/github.com/kiriake/dotfiles/deinrc ~/.deinrc
 	@sudo ln -sf ~/git/github.com/kiriake/dotfiles/tmux.conf ~/.tmux.conf
