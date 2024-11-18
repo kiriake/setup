@@ -45,6 +45,7 @@ apps:
 	@echo 'Install brew, cask, asdf, rust lang and mas apps'
 	@brew update
 	@brew bundle
+	@brew install emacs-mac --with-glib --with-librsvg --with-native-comp --with-xwidgets
 	@make asdf
 	@make rust
 
@@ -62,6 +63,7 @@ github:
 asdf:
 	@asdf plugin add aws-sam-cli
 	@asdf plugin add awscli
+	@asdf plugin add flutter
 	@asdf plugin add python
 	@asdf plugin add terraform
 
